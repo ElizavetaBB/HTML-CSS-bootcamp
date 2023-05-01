@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Form Elements</h1>
+    <form action="https://www.google.com/search">
+        <label for="search_request">Request to Google</label>
+        <input type="text" name="q" placeholder="Type your request..." id="search_request">
+        <button>Click me</button>
+    </form>
+    <h2>Another form</h2>
+    <form action="">
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Type a password..." name="password">
+        <input type="color">
+        <input type="number" placeholder="Only numbers">
+        <textarea rows="10" cols="30">Pre-set text</textarea>
+        <input type="range" step="1" min="1" max="10" name="rangeValue">
+        <input type="checkbox" name="checkboxValue">
+        <button>Click me</button>
+    </form>
+    <h2>New form!</h2>
+    <form action="">
+        <select name="select_pet" id="select_pet">
+            <option>Dog</option>
+            <option>Cat</option>
+            <option>Parrot</option>
+        </select>
+        <label for="firstRadio">First radio</label>
+        <input type="radio" id="firstRadio" name="radio_buttons" value="first">
+        <label for="secondRadio">Second radio</label>
+        <input type="radio" id="secondRadio" name="radio_buttons" value="second">
+        <button>Click me</button>
+    </form>
+</body>
+</html>
