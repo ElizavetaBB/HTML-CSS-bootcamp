@@ -20,4 +20,6 @@ Control space between lines. Just number means that it equals to font-size*numbe
 ## Text-shadow
 https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow
 
-blur-radius
+blur-radius - how much it'll be blurred.
+
+offset-x/offset-y - can be negative.

@@ -1,0 +1,40 @@
+h3 {
+    text-transform: capitalize;
+}
+
+span {
+    text-decoration: underline wavy blue 0.2px;
+}
+
+h1 {
+    text-decoration: overline dotted black;
+    font: 900 60px/2 italic sans-serif;
+}
+
+#featured_reviews {
+    text-decoration: none;
+    background-color: gold;
+}
+
+.red-colored {
+    color: red;
+}
+
+#custom_list {
+    list-style-type: "\1F338";
+    list-style-position: inside;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: orange;
+}
+
+a:hover {
+    color: rgb(217, 43, 226);
+    text-decoration: overline wavy;
+    cursor: all-scroll;
+}
