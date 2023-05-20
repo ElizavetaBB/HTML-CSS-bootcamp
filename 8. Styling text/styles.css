@@ -1,0 +1,20 @@
+h1 {
+    font-family: "Andale Mono", monospace;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: end;
+    direction: ltr;
+    letter-spacing: 2px;
+    text-shadow: pink -2px 2px 2px;
+}
+
+a {
+    font-style: italic;
+}
+
+p {
+    text-align: justify;
+    word-spacing: 10px;
+    font-size: 20px;
+    line-height: 2;
+}
