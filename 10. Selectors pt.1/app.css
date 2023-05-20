@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+input[type="number"] {
+    background-color: gold;
+}
+
+a[href^="#"] {
+    background-color: gold;
+}
+
+a[href*="wiki"] {
+    background-color: cyan;
+}
+
+a[href$=".com"] {
+    background-color: burlywood;
+}
+
+h1, h2, h3 {
+    color: red;
+}
+
+#cast span {
+    color: gray;
+}
+
+ol > li {
+    border: 1px solid black;
+}
+
+h4.score {
+    background-color: bisque;
+}
