@@ -1,0 +1,53 @@
+h1 {
+    border: pink 10px double;
+    border-top: 5px red dotted;
+    width: 500px;
+    height: 60px;
+    display: inline;
+}
+
+#container {
+    width: 500px;
+    height: 60px;
+    border: 5px solid black;
+    padding: 5px 10px;
+    margin: 20px 10px;
+    box-sizing: border-box;
+}
+
+#container2 {
+    width: 500px;
+    height: 60px;
+    border: 5px solid black;
+    padding: 5px 10px;
+    margin: 20px 10px;
+    box-sizing: content-box;
+}
+
+#box, #box2 {
+    border: 2px solid red;
+    height: 33%;
+    width: 50%;
+}
+
+#link {
+    font-size: 60px;
+    border: 5px solid red;
+    padding: 10px 5px 15px 20px;
+}
+
+p {
+    font-size: 30px;
+}
+
+#lorem {
+    border: 5px solid cyan;
+    padding: 20px;
+    display: block;
+}
+
+#lorem2 {
+    border: 5px solid cyan;
+    padding: 20px;
+    display: inline-block;
+}
