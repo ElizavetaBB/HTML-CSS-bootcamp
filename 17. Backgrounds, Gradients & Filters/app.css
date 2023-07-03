@@ -1,0 +1,6 @@
+.box {
+    border: 2px dashed black;
+    height: 500px;
+    width: 900px;
+    background-image: linear-gradient(120deg, cyan, yellow, magenta);
+}

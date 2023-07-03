@@ -1,0 +1,13 @@
+.box {
+  background-color: olive;
+  height: 300px;
+  width: 300px;
+  display: inline-block;
+}
+
+.special {
+  background-color: orange;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
