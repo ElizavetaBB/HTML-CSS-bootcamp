@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+}
+
+.navbar {
+    background-color: #37474f;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navlink {
+    color: white;
+    font-size: 2rem;
+    /* margin: 0 30px; */
+}
+
+.left {
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.right {
+    background-color: yellow;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.right .navlink {
+    margin-right: 50px;
+}

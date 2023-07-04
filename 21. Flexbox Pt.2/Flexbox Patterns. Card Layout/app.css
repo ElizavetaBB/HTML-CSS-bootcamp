@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(cyan, orangered);
+}
+
+.card {
+    background-color: white;
+    border-radius: 5px;
+    width: 400px;
+    margin: 0 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card footer {
+    background-color: slateblue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto;
+}

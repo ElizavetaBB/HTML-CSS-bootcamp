@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap');
+
+body {
+    font-family: Cormorant, serif;
+    margin: 0;
+}
+
+header {
+    padding-left: 30px;
+}
+
+h1 {
+    display: inline-block;
+    font-weight: 300;
+    margin: 32px 32px 0 0;
+}
+
+.inline_block {
+    display: inline-block;
+}
+
+.inline_block ul {
+    padding: 0;
+}
+
+.inline_block li {
+    display: inline-block;
+}
+
+
+.inline_block a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin: 0 8px;
+}
+
+a.underline_link {
+    border-bottom: 1px solid black;
+}
+
+main {
+    padding: 16px;
+}
+
+.card {
+    width: 49%;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 16px;
+}
+
+.card img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.card img:hover {
+    opacity: 0.8;
+}
+
+.card h2 {
+    display: inline-block;
+    margin: 10px 0 16px 0;
+    font-weight: 300;
+}
+
+footer {
+    margin: 50px 0 10px 60px;
+    min-width: 300px;
+    width: 40%;
+}
+
+footer h3 {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.contact {
+    margin-top: 80px;
+}
+
+.contact p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+h3.underline_link {
+    border-bottom: 1px solid black;
+    display: inline-block;
+    padding-bottom: 3px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .card {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .card {
+        padding: 0;
+    }
+
+    main {
+        padding: 8px;
+    }
+
+    .inline_block a:first-of-type {
+        margin: 0 8px 0 0;
+    }
+}
