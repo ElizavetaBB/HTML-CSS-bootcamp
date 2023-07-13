@@ -1,0 +1,24 @@
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name: myspin;
+    animation-duration: 5s;
+}
+
+@keyframes myspin {
+    0% {
+        background-color: yellow;
+    }
+    50% {
+        background-color: blue;
+    }
+    100% {
+        background-color: violet;
+    }
+}
