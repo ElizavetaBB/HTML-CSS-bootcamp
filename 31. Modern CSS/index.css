@@ -1,0 +1,15 @@
+:root {
+    --green-brand-color: rgb(148, 116, 11);
+}
+
+button {
+    background-color: var(--green-brand-color);
+}
+
+h1 {
+    color: var(--green-brand-color);
+}
+
+div {
+    border: 3px solid var(--green-brand-color);
+}
